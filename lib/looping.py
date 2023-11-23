@@ -2,7 +2,12 @@
 
 def happy_new_year():
     # code goes here!
-    pass
+    countdown = 10
+    while countdown >= 1:
+        print(countdown)
+        countdown -= 1
+    print("Happy New Year!")
+    
 
 def square_integers(int_list):
     # code goes here!
